@@ -1,0 +1,12 @@
+res {
+  AA: { id: 'AA', pressure: 0, open: true, joints: [ 'DD', 'II', 'BB' ] },
+  BB: { id: 'BB', pressure: 13, open: false, joints: [ 'CC', 'AA' ] },
+  CC: { id: 'CC', pressure: 2, open: false, joints: [ 'DD', 'BB' ] },
+  DD: { id: 'DD', pressure: 20, open: false, joints: [ 'CC', 'AA', 'EE' ] },
+  EE: { id: 'EE', pressure: 3, open: false, joints: [ 'FF', 'DD' ] },
+  FF: { id: 'FF', pressure: 0, open: true, joints: [ 'EE', 'GG' ] },
+  GG: { id: 'GG', pressure: 0, open: true, joints: [ 'FF', 'HH' ] },
+  HH: { id: 'HH', pressure: 22, open: false, joints: [ 'GG' ] },
+  II: { id: 'II', pressure: 0, open: true, joints: [ 'AA', 'JJ' ] },
+  JJ: { id: 'JJ', pressure: 21, open: false, joints: [ 'II' ] }
+}
